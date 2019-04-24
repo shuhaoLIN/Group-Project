@@ -67,7 +67,8 @@ public class MainInterface {
 	public MainInterface() {
 		
 		initialize();
-		frame.setVisible(true);
+		frame.setVisible(true);  
+		//test
 	}
 
 	/**
