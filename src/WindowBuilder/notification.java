@@ -40,19 +40,19 @@ public class notification extends JPanel {
 		
 		JButton button_3 = new JButton("\u5B66\u6821\u901A\u77E5");
 		
-		button_3.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		button_3.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		button_3.setBounds(38, 49, 163, 60);
 		panel_1.add(button_3);
 		
 		JButton btnNewButton = new JButton("\u5B66\u9662\u901A\u77E5");
-		btnNewButton.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		btnNewButton.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		
 		btnNewButton.setBounds(38, 104, 163, 60);
 		panel_1.add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("\u6559\u52A1\u5904\u901A\u77E5");
 		
-		btnNewButton_1.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		btnNewButton_1.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		btnNewButton_1.setBounds(38, 163, 163, 60);
 		panel_1.add(btnNewButton_1);
 		
@@ -63,43 +63,43 @@ public class notification extends JPanel {
 		panel.add(panel_2);
 		
 		JLabel label = new JLabel("\u5B66\u6821\u901A\u77E5");
-		label.setFont(new Font("ËÎÌå", Font.PLAIN, 30));
+		label.setFont(new Font("å®‹ä½“", Font.PLAIN, 30));
 		label.setBounds(36, 26, 192, 68);
 		panel_2.add(label);
 		
 		JLabel label_1 = new JLabel("\u53D1\u5E03\u65F6\u95F4");
-		label_1.setFont(new Font("ËÎÌå", Font.PLAIN, 24));
+		label_1.setFont(new Font("å®‹ä½“", Font.PLAIN, 24));
 		label_1.setBounds(480, 44, 116, 37);
 		panel_2.add(label_1);
 		
 		JLabel label_2 = new JLabel("2019-3-29");
-		label_2.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_2.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_2.setBounds(490, 103, 116, 25);
 		panel_2.add(label_2);
 		
 		JLabel label_3 = new JLabel("\u66A8\u5357\u5927\u5B66\u653F\u515A\u529E\u516C\u5BA4\u5173\u4E8E2019\u5E74\u6E05\u660E\u8282\u653E\u5047\u7684\u901A\u77E5");
-		label_3.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_3.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_3.setBounds(36, 146, 404, 41);
 		panel_2.add(label_3);
 		
 		JLabel label_4 = new JLabel("2019-3-15");
-		label_4.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_4.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_4.setBounds(489, 157, 117, 18);
 		panel_2.add(label_4);
 		
 		JLabel label_5 = new JLabel("\u5173\u4E8E\u7535\u5B50\u90AE\u7BB1\u7CFB\u7EDF\u5347\u7EA7\u53CA\u6838\u5BF9\u90AE\u7BB1\u8D26\u53F7\u4FE1\u606F\u7684\u901A\u77E5");
-		label_5.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_5.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_5.setBounds(35, 200, 405, 36);
 		panel_2.add(label_5);
 		
 		JLabel label_6 = new JLabel("2019-3-12");
-		label_6.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_6.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_6.setBounds(490, 206, 116, 25);
 		panel_2.add(label_6);
 		
 		JLabel label_7 = new JLabel("\u5173\u4E8E\u5347\u7EA7\u7535\u5B50\u90AE\u7BB1\u7CFB\u7EDF\u7684\u901A\u77E5");
 		
-		label_7.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_7.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_7.setBounds(36, 97, 404, 36);
 		panel_2.add(label_7);
 		
@@ -110,42 +110,42 @@ public class notification extends JPanel {
 		panel_4.setBackground(Color.WHITE);
 		
 		JLabel label_16 = new JLabel("\u5B66\u9662\u901A\u77E5");
-		label_16.setFont(new Font("ËÎÌå", Font.PLAIN, 30));
+		label_16.setFont(new Font("å®‹ä½“", Font.PLAIN, 30));
 		label_16.setBounds(38, 28, 192, 68);
 		panel_4.add(label_16);
 		
 		JLabel label_17 = new JLabel("\u4EBA\u6587\u5B66\u9662\u5173\u4E8E\u7B26\u54082019\u5E74\u65B0\u589E\u7814\u7A76\u751F\u5BFC\u5E08\u7533\u8BF7\u8D44\u683C\u4EBA\u5458\u7684\u516C\u793A");
-		label_17.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_17.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_17.setBounds(38, 109, 278, 26);
 		panel_4.add(label_17);
 		
 		JLabel label_18 = new JLabel("\u53D1\u5E03\u65F6\u95F4");
-		label_18.setFont(new Font("ËÎÌå", Font.PLAIN, 24));
+		label_18.setFont(new Font("å®‹ä½“", Font.PLAIN, 24));
 		label_18.setBounds(480, 38, 115, 40);
 		panel_4.add(label_18);
 		
 		JLabel label_19 = new JLabel("2019-3-11");
-		label_19.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_19.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_19.setBounds(490, 109, 94, 18);
 		panel_4.add(label_19);
 		
 		JLabel label_20 = new JLabel("\u4EBA\u6587\u5B66\u96622017-2018\u5B66\u5E74\u5E74\u5EA6\u8003\u6838\u7ED3\u679C\u4F18\u79C0\u4EBA\u5458\u516C\u793A");
-		label_20.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_20.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_20.setBounds(38, 157, 404, 26);
 		panel_4.add(label_20);
 		
 		JLabel label_21 = new JLabel("2018-9-30");
-		label_21.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_21.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_21.setBounds(490, 155, 120, 18);
 		panel_4.add(label_21);
 		
 		JLabel label_22 = new JLabel("2018\u5E74\u4EBA\u6587\u5B66\u9662\u7533\u62A5\u4E13\u4E1A\u6280\u672F\u8D44\u683C\u60C5\u51B5\u516C\u793A");
-		label_22.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_22.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_22.setBounds(38, 212, 404, 18);
 		panel_4.add(label_22);
 		
 		JLabel label_23 = new JLabel("2018-9-20");
-		label_23.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_23.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_23.setBounds(490, 210, 115, 18);
 		panel_4.add(label_23);
 		
@@ -156,42 +156,42 @@ public class notification extends JPanel {
 		panel_3.setBackground(Color.WHITE);
 		
 		JLabel label_8 = new JLabel("\u6559\u52A1\u5904\u901A\u77E5");
-		label_8.setFont(new Font("ËÎÌå", Font.PLAIN, 30));
+		label_8.setFont(new Font("å®‹ä½“", Font.PLAIN, 30));
 		label_8.setBounds(48, 30, 192, 68);
 		panel_3.add(label_8);
 		
 		JLabel label_9 = new JLabel("\u5173\u4E8E\u300A\u4FE1\u606F\u5B89\u5168\u7B80\u53F2\u300B\u7B49\u901A\u8BC6\u6559\u80B2\u9009\u4FEE\u8BFE\u64A4\u73ED\u7684\u901A\u77E5");
-		label_9.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_9.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_9.setBounds(48, 111, 374, 29);
 		panel_3.add(label_9);
 		
 		JLabel label_10 = new JLabel("\u53D1\u5E03\u65F6\u95F4");
-		label_10.setFont(new Font("ËÎÌå", Font.PLAIN, 24));
+		label_10.setFont(new Font("å®‹ä½“", Font.PLAIN, 24));
 		label_10.setBounds(479, 46, 134, 41);
 		panel_3.add(label_10);
 		
 		JLabel label_11 = new JLabel("2019-1-10");
-		label_11.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_11.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_11.setBounds(479, 116, 86, 18);
 		panel_3.add(label_11);
 		
 		JLabel label_12 = new JLabel("2018-2019\u5B66\u5E74\u7B2C\u4E8C\u5B66\u671F\u5168\u65E5\u5236\u672C\u79D1\u5B66\u751F\u9009\u8BFE\u901A\u77E5");
-		label_12.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_12.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_12.setBounds(48, 171, 374, 18);
 		panel_3.add(label_12);
 		
 		JLabel label_13 = new JLabel("2018-12-20");
-		label_13.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_13.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_13.setBounds(479, 171, 112, 18);
 		panel_3.add(label_13);
 		
 		JLabel label_14 = new JLabel("\u5173\u4E8E2018\u7EA7\u79CB\u5B63\u65B0\u751F\u7F51\u4E0A\u9009\u8BFE\u7684\u901A\u77E5");
-		label_14.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_14.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_14.setBounds(48, 222, 374, 18);
 		panel_3.add(label_14);
 		
 		JLabel label_15 = new JLabel("2018-9-10");
-		label_15.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_15.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_15.setBounds(479, 222, 86, 18);
 		panel_3.add(label_15);
 		
@@ -212,7 +212,7 @@ public class notification extends JPanel {
 		
 		JLabel label_26 = new JLabel("\u5173\u4E8E\u5347\u7EA7\u7535\u5B50\u90AE\u7BB1\u7CFB\u7EDF\u7684\u901A\u77E5");
 		label_26.setHorizontalAlignment(SwingConstants.CENTER);
-		label_26.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_26.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_26.setBackground(Color.WHITE);
 		label_26.setBounds(0, 0, 865, 35);
 		panel_6.add(label_26);
@@ -228,7 +228,7 @@ public class notification extends JPanel {
 		
 		JLabel label_26 = new JLabel("\u5173\u4E8E\u5347\u7EA7\u7535\u5B50\u90AE\u7BB1\u7CFB\u7EDF\u7684\u901A\u77E5     ");
 		label_26.setHorizontalAlignment(SwingConstants.CENTER);
-		label_26.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_26.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_26.setBackground(Color.WHITE);
 		panel_6.add(label_26);
 		

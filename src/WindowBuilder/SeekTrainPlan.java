@@ -26,11 +26,12 @@ public class SeekTrainPlan extends JPanel {
 		
 		JLabel label = new JLabel("\u57F9\u517B\u65B9\u6848");
 		label.setHorizontalAlignment(SwingConstants.CENTER);
-		label.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
+		label.setFont(new Font("Dialog", Font.PLAIN, 20));
 		label.setBounds(400, 13, 188, 36);
 		panel.add(label);
 		
 		JLabel label_1 = new JLabel("");
+		label_1.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		String path = this.getClass().getClassLoader().getResource(".").getPath();
 		label_1.setIcon(new ImageIcon(path+"../images/trainplan.png"));
 		label_1.setBounds(31, 54, 934, 429);

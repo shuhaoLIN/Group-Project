@@ -18,7 +18,7 @@ import java.awt.event.ActionEvent;
 public class login {
 
 	private JFrame frame;
-	static JTextField textField;
+	public static JTextField textField;
 	private JPasswordField passwordField;
 
 	/**

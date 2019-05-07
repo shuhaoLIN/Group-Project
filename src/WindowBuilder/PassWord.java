@@ -37,7 +37,7 @@ public class PassWord extends JPanel {
 		user_password.setLayout(null);
 		
 		JLabel lblNewLabel_5 = new JLabel("\u7F51\u7AD9\u8D26\u53F7\u5BC6\u7801\u7BA1\u7406");
-		lblNewLabel_5.setFont(new Font("Dialog", Font.PLAIN, 18));
+		lblNewLabel_5.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		lblNewLabel_5.setBounds(88, 55, 378, 37);
 		user_password.add(lblNewLabel_5);
 		
@@ -52,28 +52,30 @@ public class PassWord extends JPanel {
 		scrollPane_2.setViewportView(panel_1);
 		panel_1.setLayout(null);
 		
-		JLabel lblNewLabel_6 = new JLabel("ÍøÕ¾£º     StudyÆ½Ì¨(https://study.jnu.edu.cn) ");
+		JLabel lblNewLabel_6 = new JLabel("ç½‘ç«™ï¼š     Studyå¹³å°(https://study.jnu.edu.cn) ");
 		lblNewLabel_6.setBounds(88, 32, 425, 33);
-		lblNewLabel_6.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		lblNewLabel_6.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		panel_1.add(lblNewLabel_6);
 		
-		JLabel lblNewLabel_7 = new JLabel("ÕËºÅ£º");
+		JLabel lblNewLabel_7 = new JLabel("è´¦å·ï¼š");
 		lblNewLabel_7.setBounds(88, 89, 77, 27);
-		lblNewLabel_7.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		lblNewLabel_7.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		panel_1.add(lblNewLabel_7);
 		
-		JLabel label_24 = new JLabel("ÃÜÂë£º");
+		JLabel label_24 = new JLabel("å¯†ç ï¼š");
 		label_24.setBounds(88, 139, 77, 27);
-		label_24.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_24.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		panel_1.add(label_24);
 		
 		textField_1 = new JTextField();
+		textField_1.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		textField_1.setBounds(191, 92, 308, 24);
 		textField_1.setEditable(false);
 		panel_1.add(textField_1);
 		textField_1.setColumns(10);
 		
 		textField_2 = new JTextField();
+		textField_2.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		textField_2.setBounds(191, 142, 308, 24);
 		textField_2.setEditable(false);
 		textField_2.setColumns(10);
@@ -83,28 +85,30 @@ public class PassWord extends JPanel {
 		separator_3.setBounds(88, 192, 532, 2);
 		panel_1.add(separator_3);
 		
-		JLabel lblhttpsijnueducn = new JLabel("ÍøÕ¾£º     Êı×Öôß´ó(https://i.jnu.edu.cn)  ");
+		JLabel lblhttpsijnueducn = new JLabel("ç½‘ç«™ï¼š     æ•°å­—æš¨å¤§(https://i.jnu.edu.cn)  ");
 		lblhttpsijnueducn.setBounds(88, 220, 425, 33);
-		lblhttpsijnueducn.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		lblhttpsijnueducn.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		panel_1.add(lblhttpsijnueducn);
 		
-		JLabel label_25 = new JLabel("ÕËºÅ£º");
+		JLabel label_25 = new JLabel("è´¦å·ï¼š");
 		label_25.setBounds(88, 266, 77, 27);
-		label_25.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_25.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		panel_1.add(label_25);
 		
-		JLabel label_26 = new JLabel("ÃÜÂë£º");
+		JLabel label_26 = new JLabel("å¯†ç ï¼š");
 		label_26.setBounds(88, 314, 77, 27);
-		label_26.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		label_26.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		panel_1.add(label_26);
 		
 		textField_3 = new JTextField();
+		textField_3.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		textField_3.setBounds(191, 269, 308, 24);
 		textField_3.setEditable(false);
 		textField_3.setColumns(10);
 		panel_1.add(textField_3);
 		
 		textField_4 = new JTextField();
+		textField_4.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		textField_4.setBounds(191, 317, 308, 24);
 		textField_4.setEditable(false);
 		textField_4.setColumns(10);
@@ -114,34 +118,37 @@ public class PassWord extends JPanel {
 		separator_4.setBounds(88, 365, 532, 2);
 		panel_1.add(separator_4);
 		
-		JLabel label_27 = new JLabel("Ğ£Ô°¿¨");
-		label_27.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		JLabel label_27 = new JLabel("æ ¡å›­å¡");
+		label_27.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_27.setBounds(88, 396, 425, 33);
 		panel_1.add(label_27);
 		
-		JLabel label_28 = new JLabel("ÕËºÅ£º");
-		label_28.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		JLabel label_28 = new JLabel("è´¦å·ï¼š");
+		label_28.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_28.setBounds(88, 445, 77, 27);
 		panel_1.add(label_28);
 		
-		JLabel label_29 = new JLabel("ÃÜÂë£º");
-		label_29.setFont(new Font("ËÎÌå", Font.PLAIN, 18));
+		JLabel label_29 = new JLabel("å¯†ç ï¼š");
+		label_29.setFont(new Font("å®‹ä½“", Font.PLAIN, 18));
 		label_29.setBounds(88, 491, 77, 27);
 		panel_1.add(label_29);
 		
 		textField_5 = new JTextField();
+		textField_5.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		textField_5.setEditable(false);
 		textField_5.setColumns(10);
 		textField_5.setBounds(191, 448, 308, 24);
 		panel_1.add(textField_5);
 		
 		textField_6 = new JTextField();
+		textField_6.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		textField_6.setEditable(false);
 		textField_6.setColumns(10);
 		textField_6.setBounds(191, 494, 308, 24);
 		panel_1.add(textField_6);
 		
-		JButton btnNewButton_2 = new JButton("±£´æ");
+		JButton btnNewButton_2 = new JButton("ä¿å­˜");
+		btnNewButton_2.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				textField_1.setEditable(false);
@@ -155,7 +162,8 @@ public class PassWord extends JPanel {
 		btnNewButton_2.setBounds(542, 484, 113, 27);
 		user_password.add(btnNewButton_2);
 		
-		JButton button = new JButton("±à¼­");
+		JButton button = new JButton("ç¼–è¾‘");
+		button.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				textField_1.setEditable(true);

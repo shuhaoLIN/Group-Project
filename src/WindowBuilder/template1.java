@@ -6,6 +6,7 @@ import javax.swing.JButton;
 import java.awt.Color;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.Font;
 
 public class template1 extends JPanel {
 
@@ -30,6 +31,7 @@ public class template1 extends JPanel {
 		panel.add(panel_1);
 		
 		JButton button = new JButton("\u8BBA\u6587\u6A21\u677F");
+		button.setFont(new Font("宋体", Font.PLAIN, 15));
 		button.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
@@ -39,6 +41,7 @@ public class template1 extends JPanel {
 		panel_1.add(button);
 		
 		JButton button_1 = new JButton("PPT\u6A21\u677F");
+		button_1.setFont(new Font("宋体", Font.PLAIN, 15));
 		button_1.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
@@ -48,6 +51,7 @@ public class template1 extends JPanel {
 		panel_1.add(button_1);
 		
 		JButton button_2 = new JButton("\u5B9E\u9A8C\u62A5\u544A\u6A21\u677F");
+		button_2.setFont(new Font("宋体", Font.PLAIN, 15));
 		button_2.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {

@@ -40,7 +40,7 @@ import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.MatteBorder;
 import javax.swing.border.BevelBorder;
-
+import ClassLibrary.*;
 public class MainInterface {
 	static JPanel panel = new JPanel();
 	private JFrame frame;
@@ -102,7 +102,7 @@ public class MainInterface {
 		JLabel label = new JLabel("\u5C31\u4E1A\u4FE1\u606F");
 		label.setForeground(Color.BLACK);
 		label.setHorizontalAlignment(SwingConstants.CENTER);
-		label.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
+		label.setFont(new Font("宋体", Font.PLAIN, 20));
 		label.setBounds(162, 57, 113, 40);
 		mainInterface.add(label);
 		
@@ -113,7 +113,7 @@ public class MainInterface {
 		
 		JLabel lblNewLabel = new JLabel("\u6821\u56ED\u65B0\u95FB");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
+		lblNewLabel.setFont(new Font("宋体", Font.PLAIN, 20));
 		lblNewLabel.setBounds(661, 57, 113, 40);
 		mainInterface.add(lblNewLabel);
 		
@@ -126,17 +126,17 @@ public class MainInterface {
 				panel.updateUI();
 			}
 		});
-		lblNewLabel_1.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+		lblNewLabel_1.setFont(new Font("宋体", Font.PLAIN, 17));
 		lblNewLabel_1.setBounds(29, 151, 424, 30);
 		mainInterface.add(lblNewLabel_1);
 		
 		JLabel label_1 = new JLabel("\u65F6\u4EE3\u4E2D\u56FD2019\u6625\u5B63\u6821\u56ED\u62DB\u8058\u516C\u544A");
-		label_1.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+		label_1.setFont(new Font("宋体", Font.PLAIN, 17));
 		label_1.setBounds(29, 221, 424, 30);
 		mainInterface.add(label_1);
 		
 		JLabel lblyoung = new JLabel("\u5E7F\u53D1\u53612019\u6625\u5B63\u6821\u56ED\u2014\u2014\u4E0D\u4E00young\u7684\u7CBE\u5F69");
-		lblyoung.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+		lblyoung.setFont(new Font("宋体", Font.PLAIN, 17));
 		lblyoung.setBounds(29, 302, 424, 30);
 		mainInterface.add(lblyoung);
 		
@@ -154,12 +154,12 @@ public class MainInterface {
 		mainInterface.add(label_3);
 		
 		JLabel label_4 = new JLabel("\u6211\u6821\u83B7\u62795\u9879\u56FD\u5BB6\u865A\u62DF\u4EFF\u771F\u5B9E\u9A8C\u6559\u5B66\u9879\u76EE");
-		label_4.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+		label_4.setFont(new Font("宋体", Font.PLAIN, 17));
 		label_4.setBounds(544, 151, 424, 30);
 		mainInterface.add(label_4);
 		
 		JLabel label_5 = new JLabel("\u3010\u8FC8\u5411\u9AD8\u6C34\u5E73\u3011\u6211\u682111\u9879\u6210\u679C\u83B7\u5E7F\u4E1C\u7701\u79D1\u5B66\u6280\u672F\u5956");
-		label_5.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+		label_5.setFont(new Font("宋体", Font.PLAIN, 17));
 		label_5.setBounds(544, 221, 424, 30);
 		mainInterface.add(label_5);
 		
@@ -307,7 +307,7 @@ public class MainInterface {
 		panel_3.add(button_1);
 		
 		JLabel label_2 = new JLabel("\u9EC4\u9882\u626C");
-		label_2.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+		label_2.setFont(new Font("宋体", Font.PLAIN, 17));
 		label_2.setBounds(555, 0, 72, 27);
 		panel_3.add(label_2);
 		
