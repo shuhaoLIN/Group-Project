@@ -31,6 +31,8 @@ import java.awt.Choice;
 import java.awt.ScrollPane;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.IOException;
+
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.JTextArea;
@@ -44,6 +46,7 @@ import ClassLibrary.*;
 public class MainInterface {
 	static JPanel panel = new JPanel();
 	private JFrame frame;
+	private logClass logClass = new logClass();
 
 	/**
 	 * Launch the application.
@@ -298,6 +301,12 @@ public class MainInterface {
 		JButton button_1 = new JButton("\u4E3B\u754C\u9762");
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				try {
+					logClass.printlog("点击了主页面按钮");
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				panel.removeAll();
 				panel.add(mainInterface);
 				panel.updateUI();
