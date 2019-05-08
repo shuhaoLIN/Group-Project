@@ -151,6 +151,7 @@ public class PassWord extends JPanel {
 		btnNewButton_2.setFont(new Font("宋体", Font.PLAIN, 15));
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				MainInterface.logClass.printlog("点击了保存");
 				textField_1.setEditable(false);
 				textField_2.setEditable(false);
 				textField_3.setEditable(false);
@@ -166,6 +167,7 @@ public class PassWord extends JPanel {
 		button.setFont(new Font("宋体", Font.PLAIN, 15));
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				MainInterface.logClass.printlog("点击了编辑");
 				textField_1.setEditable(true);
 				textField_2.setEditable(true);
 				textField_3.setEditable(true);

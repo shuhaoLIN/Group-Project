@@ -1,14 +1,20 @@
 package WindowBuilder;
 
 import javax.swing.JPanel;
+
+import java.awt.BorderLayout;
 import java.awt.Color;
 import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.SwingConstants;
+import javax.swing.SwingUtilities;
 import javax.swing.JSeparator;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import ClassLibrary.*;
+import chrriis.common.UIUtils;
+import chrriis.dj.nativeswing.swtimpl.NativeInterface;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -46,6 +52,7 @@ public class WorkInfo extends JPanel {
 			public void mousePressed(MouseEvent arg0) {
 				MainInterface.panel.removeAll();
 				MainInterface.panel.add(new workDetail());
+				//new WorkDetailWeb("www.baidu.com", MainInterface.panel);
 				MainInterface.panel.updateUI();
 			}
 		});
@@ -116,6 +123,7 @@ public class WorkInfo extends JPanel {
 		JButton btnNewButton = new JButton("上一页");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				MainInterface.logClass.printlog("点击了上一页");
 				if(page>0) {
 					page--;
 					label_1.setText(WorkInfoCrawer.workInfoList.get(page*5+0));
@@ -138,6 +146,7 @@ public class WorkInfo extends JPanel {
 		JButton button = new JButton("下一页");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				MainInterface.logClass.printlog("点击了下一页");
 				if(page<9){
 					page++;
 					label_1.setText(WorkInfoCrawer.workInfoList.get(page*5+0));

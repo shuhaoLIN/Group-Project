@@ -9,6 +9,6 @@ class logFormatter extends Formatter {
         Date date = new Date();  
         String sDate = date.toString();  
         return "[" + sDate + "]" +"   "+ "[" + record.getLevel() + "]"  
-                 + record.getMessage() + "\n";  
+                 + record.getMessage() + "\r\n";  
     }  
 } 

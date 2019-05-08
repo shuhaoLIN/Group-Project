@@ -8,11 +8,17 @@ import java.awt.Font;
 import javax.swing.JSeparator;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
+
+import ClassLibrary.logClass;
+
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class PersonInfo extends JPanel {
 	private JTextField textField;
 
+	
 	/**
 	 * Create the panel.
 	 */
@@ -91,6 +97,11 @@ public class PersonInfo extends JPanel {
 		panel.add(textField);
 		
 		JButton button = new JButton("保存");
+		button.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				MainInterface.logClass.printlog("点击了保存");
+			}
+		});
 		button.setFont(new Font("宋体", Font.PLAIN, 15));
 		button.setBounds(437, 461, 97, 32);
 		panel.add(button);

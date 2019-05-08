@@ -45,8 +45,9 @@ import javax.swing.border.BevelBorder;
 import ClassLibrary.*;
 public class MainInterface {
 	static JPanel panel = new JPanel();
-	private JFrame frame;
-	private logClass logClass = new logClass();
+	static logClass logClass = new logClass();
+	static JFrame frame;
+	
 
 	/**
 	 * Launch the application.
@@ -147,6 +148,7 @@ public class MainInterface {
 		label_3.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
+				logClass.printlog("点击了更多就业信息");
 				panel.removeAll();
 				panel.add(new WorkInfo());
 				panel.updateUI();
@@ -184,6 +186,9 @@ public class MainInterface {
 			@Override
 			public void mousePressed(MouseEvent e) {
 				super.mousePressed(e);
+				
+				logClass.printlog("点击了就业信息");
+				
 				panel.removeAll();
 				panel.add(new WorkInfo());
 				panel.updateUI();
@@ -197,6 +202,10 @@ public class MainInterface {
 		mntmNewMenuItem_1.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
+				
+				logClass.printlog("点击了校园新闻");
+				
+				
 				panel.removeAll();
 				panel.add(new news());
 				panel.updateUI();
@@ -209,6 +218,9 @@ public class MainInterface {
 		mntmNewMenuItem_2.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
+				
+				logClass.printlog("点击了学校通知");
+				
 				panel.removeAll();
 				panel.add(new notification());
 				panel.updateUI();
@@ -221,6 +233,9 @@ public class MainInterface {
 		mntmNewMenuItem_3.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
+				
+				logClass.printlog("点击了电费饭卡余额");
+				
 				panel.removeAll();
 				panel.add(new balance());
 				panel.updateUI();
@@ -237,6 +252,7 @@ public class MainInterface {
 		mntmNewMenuItem_4.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
+				logClass.printlog("点击了下载文档模板");
 				panel.removeAll();
 				panel.add(new template1());
 				panel.updateUI();
@@ -249,6 +265,7 @@ public class MainInterface {
 		mntmNewMenuItem_6.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
+				logClass.printlog("点击了填写请假条");
 				panel.removeAll();
 				panel.add(new request());
 				panel.updateUI();
@@ -265,6 +282,7 @@ public class MainInterface {
 		mntmNewMenuItem_5.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
+				logClass.printlog("点击了查询成绩");
 				panel.removeAll();
 				panel.add(new SeekGrade());
 				panel.updateUI();
@@ -277,6 +295,7 @@ public class MainInterface {
 		menuItem.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
+				logClass.printlog("点击了查询培养方案");
 				panel.removeAll();
 				panel.add(new SeekTrainPlan());
 				panel.updateUI();
@@ -290,6 +309,12 @@ public class MainInterface {
 		menuBar.add(mnNewMenu_3);
 		
 		JMenuItem mntmNewMenuItem_8 = new JMenuItem("\u5BF9\u63A5\u5B66\u6821\u8BBA\u575B");
+		mntmNewMenuItem_8.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent arg0) {
+				logClass.printlog("点击了对接学校论坛");
+			}
+		});
 		mntmNewMenuItem_8.setFont(new Font("Microsoft YaHei UI", Font.PLAIN, 18));
 		mnNewMenu_3.add(mntmNewMenuItem_8);
 		
@@ -301,12 +326,9 @@ public class MainInterface {
 		JButton button_1 = new JButton("\u4E3B\u754C\u9762");
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				try {
-					logClass.printlog("点击了主页面按钮");
-				} catch (IOException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
+				
+				logClass.printlog("点击了主页面按钮");
+				
 				panel.removeAll();
 				panel.add(mainInterface);
 				panel.updateUI();
@@ -331,16 +353,19 @@ public class MainInterface {
 				case 0:
 					break;
 				case 1:
+					logClass.printlog("点击了个人信息设置");
 					panel.removeAll();
 					panel.add(new PersonInfo());
 					panel.updateUI();
 					break;
 				case 2:
+					logClass.printlog("点击了账号密码管理");
 					panel.removeAll();
 					panel.add(new PassWord());
 					panel.updateUI();
 					break;
 				case 3:
+					logClass.printlog("点击了退出登录");
 					frame.dispose();
 					login log_in = new login();
 					break;
