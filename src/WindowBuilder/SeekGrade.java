@@ -13,6 +13,10 @@ import javax.swing.border.LineBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
+<<<<<<< HEAD
+=======
+import java.awt.Font;
+>>>>>>> test2
 
 public class SeekGrade extends JPanel {
 	private JTextField textField;
@@ -33,11 +37,19 @@ public class SeekGrade extends JPanel {
 		SeekGrade_panel.setLayout(null);
 		
 		textField = new JTextField();
+<<<<<<< HEAD
+=======
+		textField.setFont(new Font("宋体", Font.PLAIN, 15));
+>>>>>>> test2
 		textField.setBounds(160, 76, 223, 33);
 		SeekGrade_panel.add(textField);
 		textField.setColumns(10);
 		
 		JButton btnNewButton = new JButton("\u641C\u7D22\u8BE5\u79D1\u6210\u7EE9");
+<<<<<<< HEAD
+=======
+		btnNewButton.setFont(new Font("宋体", Font.PLAIN, 15));
+>>>>>>> test2
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 			}
@@ -46,10 +58,18 @@ public class SeekGrade extends JPanel {
 		SeekGrade_panel.add(btnNewButton);
 		
 		JButton button = new JButton("\u91CD\u7F6E");
+<<<<<<< HEAD
+=======
+		button.setFont(new Font("宋体", Font.PLAIN, 15));
+>>>>>>> test2
 		button.setBounds(635, 76, 113, 33);
 		SeekGrade_panel.add(button);
 		
 		table = new JTable();
+<<<<<<< HEAD
+=======
+		table.setFont(new Font("宋体", Font.PLAIN, 15));
+>>>>>>> test2
 		table.setModel(new DefaultTableModel(
 			new Object[][] {
 				{"\u5B66\u5E74", "\u5B66\u671F", "\u8BFE\u7A0B\u540D\u79F0", "\u5B66\u5206", "\u6210\u7EE9", "\u8003\u8BD5\u65E5\u671F", "\u8003\u8BD5\u6027\u8D28", "\u8BFE\u7A0B\u7C7B\u522B", "\u4FEE\u5B66\u7C7B\u522B", "\u53D6\u6D88\u5426"},
@@ -67,6 +87,10 @@ public class SeekGrade extends JPanel {
 		SeekGrade_panel.add(table);
 		
 		JLabel lblNewLabel_4 = new JLabel("\u5168\u90E8\u6210\u7EE9");
+<<<<<<< HEAD
+=======
+		lblNewLabel_4.setFont(new Font("宋体", Font.PLAIN, 15));
+>>>>>>> test2
 		lblNewLabel_4.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_4.setBounds(430, 135, 99, 39);
 		SeekGrade_panel.add(lblNewLabel_4);

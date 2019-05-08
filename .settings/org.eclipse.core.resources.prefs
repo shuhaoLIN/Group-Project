@@ -1,3 +1,8 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 encoding//src/WindowBuilder/Login.java=UTF-8
 encoding//src/WindowBuilder/MainInterface.java=UTF-8
+=======
+encoding//src/WindowBuilder/MainInterface.java=UTF-8
+encoding//src/WindowBuilder/login.java=UTF-8
+>>>>>>> test2

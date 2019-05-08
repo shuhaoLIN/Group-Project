@@ -31,6 +31,11 @@ import java.awt.Choice;
 import java.awt.ScrollPane;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+<<<<<<< HEAD
+=======
+import java.io.IOException;
+
+>>>>>>> test2
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.JTextArea;
@@ -40,10 +45,19 @@ import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.MatteBorder;
 import javax.swing.border.BevelBorder;
+<<<<<<< HEAD
 
 public class MainInterface {
 	static JPanel panel = new JPanel();
 	private JFrame frame;
+=======
+import ClassLibrary.*;
+public class MainInterface {
+	static JPanel panel = new JPanel();
+	static logClass logClass = new logClass();
+	static JFrame frame;
+	
+>>>>>>> test2
 
 	/**
 	 * Launch the application.
@@ -102,7 +116,11 @@ public class MainInterface {
 		JLabel label = new JLabel("\u5C31\u4E1A\u4FE1\u606F");
 		label.setForeground(Color.BLACK);
 		label.setHorizontalAlignment(SwingConstants.CENTER);
+<<<<<<< HEAD
 		label.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
+=======
+		label.setFont(new Font("宋体", Font.PLAIN, 20));
+>>>>>>> test2
 		label.setBounds(162, 57, 113, 40);
 		mainInterface.add(label);
 		
@@ -113,7 +131,11 @@ public class MainInterface {
 		
 		JLabel lblNewLabel = new JLabel("\u6821\u56ED\u65B0\u95FB");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
+<<<<<<< HEAD
 		lblNewLabel.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
+=======
+		lblNewLabel.setFont(new Font("宋体", Font.PLAIN, 20));
+>>>>>>> test2
 		lblNewLabel.setBounds(661, 57, 113, 40);
 		mainInterface.add(lblNewLabel);
 		
@@ -122,21 +144,37 @@ public class MainInterface {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
 				panel.removeAll();
+<<<<<<< HEAD
 				panel.add(new WorkDetail());
 				panel.updateUI();
 			}
 		});
 		lblNewLabel_1.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+=======
+				panel.add(new workDetail());
+				panel.updateUI();
+			}
+		});
+		lblNewLabel_1.setFont(new Font("宋体", Font.PLAIN, 17));
+>>>>>>> test2
 		lblNewLabel_1.setBounds(29, 151, 424, 30);
 		mainInterface.add(lblNewLabel_1);
 		
 		JLabel label_1 = new JLabel("\u65F6\u4EE3\u4E2D\u56FD2019\u6625\u5B63\u6821\u56ED\u62DB\u8058\u516C\u544A");
+<<<<<<< HEAD
 		label_1.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+=======
+		label_1.setFont(new Font("宋体", Font.PLAIN, 17));
+>>>>>>> test2
 		label_1.setBounds(29, 221, 424, 30);
 		mainInterface.add(label_1);
 		
 		JLabel lblyoung = new JLabel("\u5E7F\u53D1\u53612019\u6625\u5B63\u6821\u56ED\u2014\u2014\u4E0D\u4E00young\u7684\u7CBE\u5F69");
+<<<<<<< HEAD
 		lblyoung.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+=======
+		lblyoung.setFont(new Font("宋体", Font.PLAIN, 17));
+>>>>>>> test2
 		lblyoung.setBounds(29, 302, 424, 30);
 		mainInterface.add(lblyoung);
 		
@@ -144,6 +182,10 @@ public class MainInterface {
 		label_3.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
+<<<<<<< HEAD
+=======
+				logClass.printlog("点击了更多就业信息");
+>>>>>>> test2
 				panel.removeAll();
 				panel.add(new WorkInfo());
 				panel.updateUI();
@@ -154,12 +196,20 @@ public class MainInterface {
 		mainInterface.add(label_3);
 		
 		JLabel label_4 = new JLabel("\u6211\u6821\u83B7\u62795\u9879\u56FD\u5BB6\u865A\u62DF\u4EFF\u771F\u5B9E\u9A8C\u6559\u5B66\u9879\u76EE");
+<<<<<<< HEAD
 		label_4.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+=======
+		label_4.setFont(new Font("宋体", Font.PLAIN, 17));
+>>>>>>> test2
 		label_4.setBounds(544, 151, 424, 30);
 		mainInterface.add(label_4);
 		
 		JLabel label_5 = new JLabel("\u3010\u8FC8\u5411\u9AD8\u6C34\u5E73\u3011\u6211\u682111\u9879\u6210\u679C\u83B7\u5E7F\u4E1C\u7701\u79D1\u5B66\u6280\u672F\u5956");
+<<<<<<< HEAD
 		label_5.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+=======
+		label_5.setFont(new Font("宋体", Font.PLAIN, 17));
+>>>>>>> test2
 		label_5.setBounds(544, 221, 424, 30);
 		mainInterface.add(label_5);
 		
@@ -181,6 +231,12 @@ public class MainInterface {
 			@Override
 			public void mousePressed(MouseEvent e) {
 				super.mousePressed(e);
+<<<<<<< HEAD
+=======
+				
+				logClass.printlog("点击了就业信息");
+				
+>>>>>>> test2
 				panel.removeAll();
 				panel.add(new WorkInfo());
 				panel.updateUI();
@@ -194,8 +250,17 @@ public class MainInterface {
 		mntmNewMenuItem_1.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
+<<<<<<< HEAD
 				panel.removeAll();
 				panel.add(new News());
+=======
+				
+				logClass.printlog("点击了校园新闻");
+				
+				
+				panel.removeAll();
+				panel.add(new news());
+>>>>>>> test2
 				panel.updateUI();
 			}
 		});
@@ -206,8 +271,16 @@ public class MainInterface {
 		mntmNewMenuItem_2.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
+<<<<<<< HEAD
 				panel.removeAll();
 				panel.add(new Notification());
+=======
+				
+				logClass.printlog("点击了学校通知");
+				
+				panel.removeAll();
+				panel.add(new notification());
+>>>>>>> test2
 				panel.updateUI();
 			}
 		});
@@ -218,8 +291,16 @@ public class MainInterface {
 		mntmNewMenuItem_3.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
+<<<<<<< HEAD
 				panel.removeAll();
 				panel.add(new Balance());
+=======
+				
+				logClass.printlog("点击了电费饭卡余额");
+				
+				panel.removeAll();
+				panel.add(new balance());
+>>>>>>> test2
 				panel.updateUI();
 			}
 		});
@@ -234,8 +315,14 @@ public class MainInterface {
 		mntmNewMenuItem_4.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
+<<<<<<< HEAD
 				panel.removeAll();
 				panel.add(new Template());
+=======
+				logClass.printlog("点击了下载文档模板");
+				panel.removeAll();
+				panel.add(new template1());
+>>>>>>> test2
 				panel.updateUI();
 			}
 		});
@@ -246,8 +333,14 @@ public class MainInterface {
 		mntmNewMenuItem_6.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
+<<<<<<< HEAD
 				panel.removeAll();
 				panel.add(new Request());
+=======
+				logClass.printlog("点击了填写请假条");
+				panel.removeAll();
+				panel.add(new request());
+>>>>>>> test2
 				panel.updateUI();
 			}
 		});
@@ -262,6 +355,10 @@ public class MainInterface {
 		mntmNewMenuItem_5.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
+<<<<<<< HEAD
+=======
+				logClass.printlog("点击了查询成绩");
+>>>>>>> test2
 				panel.removeAll();
 				panel.add(new SeekGrade());
 				panel.updateUI();
@@ -274,6 +371,10 @@ public class MainInterface {
 		menuItem.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent arg0) {
+<<<<<<< HEAD
+=======
+				logClass.printlog("点击了查询培养方案");
+>>>>>>> test2
 				panel.removeAll();
 				panel.add(new SeekTrainPlan());
 				panel.updateUI();
@@ -287,6 +388,15 @@ public class MainInterface {
 		menuBar.add(mnNewMenu_3);
 		
 		JMenuItem mntmNewMenuItem_8 = new JMenuItem("\u5BF9\u63A5\u5B66\u6821\u8BBA\u575B");
+<<<<<<< HEAD
+=======
+		mntmNewMenuItem_8.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent arg0) {
+				logClass.printlog("点击了对接学校论坛");
+			}
+		});
+>>>>>>> test2
 		mntmNewMenuItem_8.setFont(new Font("Microsoft YaHei UI", Font.PLAIN, 18));
 		mnNewMenu_3.add(mntmNewMenuItem_8);
 		
@@ -298,6 +408,12 @@ public class MainInterface {
 		JButton button_1 = new JButton("\u4E3B\u754C\u9762");
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+<<<<<<< HEAD
+=======
+				
+				logClass.printlog("点击了主页面按钮");
+				
+>>>>>>> test2
 				panel.removeAll();
 				panel.add(mainInterface);
 				panel.updateUI();
@@ -307,7 +423,11 @@ public class MainInterface {
 		panel_3.add(button_1);
 		
 		JLabel label_2 = new JLabel("\u9EC4\u9882\u626C");
+<<<<<<< HEAD
 		label_2.setFont(new Font("ËÎÌå", Font.PLAIN, 17));
+=======
+		label_2.setFont(new Font("宋体", Font.PLAIN, 17));
+>>>>>>> test2
 		label_2.setBounds(555, 0, 72, 27);
 		panel_3.add(label_2);
 		
@@ -322,18 +442,32 @@ public class MainInterface {
 				case 0:
 					break;
 				case 1:
+<<<<<<< HEAD
+=======
+					logClass.printlog("点击了个人信息设置");
+>>>>>>> test2
 					panel.removeAll();
 					panel.add(new PersonInfo());
 					panel.updateUI();
 					break;
 				case 2:
+<<<<<<< HEAD
+=======
+					logClass.printlog("点击了账号密码管理");
+>>>>>>> test2
 					panel.removeAll();
 					panel.add(new PassWord());
 					panel.updateUI();
 					break;
 				case 3:
+<<<<<<< HEAD
 					frame.dispose();
 					Login log_in = new Login();
+=======
+					logClass.printlog("点击了退出登录");
+					frame.dispose();
+					login log_in = new login();
+>>>>>>> test2
 					break;
 				default:
 					break;
